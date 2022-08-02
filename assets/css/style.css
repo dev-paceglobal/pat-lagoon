@@ -1,0 +1,456 @@
+@font-face {
+    font-family: sofiasemi;
+    src: url('../fonts/sofia-semi.ttf');
+}
+
+@font-face {
+    font-family: sofialight;
+    src: url('../fonts/sofiapro-light.otf');
+}
+
+@font-face {
+    font-family: sofiaregular;
+    src: url('../fonts/Sofia-Regular.otf');
+}
+
+:root {
+    --heavy-font: "sofiasemi";
+    --thin-font: "sofialight";
+    --regular-font: "sofiaregular";
+    --heading-font: "sofiasemi";
+    --primary-color: #f6921f;
+    --secondary-color: #662c92;
+    --fs-14: 14px;
+    --fs-16: 16px;
+    --fs-20: 20px;
+    --fs-24: 24px;
+    --fs-35: 35px;
+    --fs-40: 40px;
+    --fs-45: 45px;
+    --fs-55: 55px;
+    --fs-65: 65px;
+}
+
+h1,h2,h3,h4{
+    font-family: var(--heading-font);
+    color: white;
+}
+span{
+    color: #fff;
+    font-family: var(--thin-font);
+}
+
+a.nav-link {
+    line-height: 26px;
+    font-size: 16px;
+    color: white;
+    font-weight: 400;
+    font-family: var(--heading-font);
+}
+i.fa {
+    font-size: 40px;
+    padding-right: 25px;
+    position: relative;
+    top: -5px;
+}
+i.fa.fa-shopping-cart {
+    font-size: 30px;
+    position: relative;
+    top: 0;
+}
+button.btn.signup-btn {
+    background: #662c92;
+    margin: -10px 0px;
+    padding: 12px 30px;
+    border-radius: 40px;
+    color: #8f8f8f;
+    text-transform: uppercase;
+}
+.nav-link:focus, .nav-link:hover{
+    color: white;
+    text-decoration: underline;
+    will-change: opacity,color;
+    transition: opacity 0.2s ease,color 0.2s ease;
+}
+img.logo {
+    height: 100px;
+    margin: 20px;
+}
+
+section.sec1-banner {
+    background: url('../images/banner.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.zoomout {
+  
+    animation: zoomout 5s;
+  }
+  
+  @keyframes zoomout{
+    0%{
+      transform: scale(1.2);
+    }
+    100%{
+      transform: scale(1);
+    }
+  }
+
+section.sec1-banner .custom-row-sec1 {
+    height: 75vh;
+}
+
+
+
+section.sec1-banner h1.sec1-heading {
+    font-size: 60px;
+    line-height: 80px;
+    letter-spacing: -1px;
+    display: block;
+    color: #fff;
+    font-weight: 300;
+    font-family: var(--heading-font);
+}
+section.sec1-banner span.sec1-span {
+    font-size: 24px;
+    line-height: 38px;
+    font-weight: 300;
+    color: white;
+    font-family: var(--thin-font);
+}
+
+.customform {
+    background: var(--primary-color);
+    padding: 30px 0px;
+}
+button.btn.btn-primary.search-form {
+    padding: 10px 100px;
+    border-radius: 0px;
+    border: none;
+    background: var(--secondary-color);
+    position: relative;
+    top: 24px;
+}
+label.sec1-label {
+    align-items: start;
+    justify-content: left;
+    display: flex;
+    color: white;
+    font-weight: 900;
+}
+
+input.form-control.custom-control-form {
+    line-height: 1.9;
+    border-radius: 0px;
+}
+
+input.form-control.custom-control-form {
+    line-height: 1.9;
+    border-radius: 0px;
+}
+select.form-select.custom-control-select {
+    line-height: 1.9;
+    border-radius: 0px;
+}
+
+section.sec2-featured-pets {
+    background: url(../images/back-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+section.sec2-featured-pets {
+    background: url(../images/back-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: max-content;
+   padding-top: 5rem;
+   padding-bottom: 10rem;
+}
+li.list-group-item {
+    background: none;
+    border: none;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    transform: translate(30px, 390px);
+}
+li.list-group-item span {
+    font-size: 15px;
+    padding: 4px 20px;
+    background: white;
+    color: green;
+    border-radius: 28px;
+}
+.sec2-caro-bg {
+    background: url(../images/1.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec2-caro-bg1 {
+    background: url(../images/2.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec2-caro-bg2 {
+    background: url(../images/4.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec2-caro-bg3 {
+    background: url(../images/5.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec2-caro-bg4 {
+    background: url(../images/6.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec2-caro-bg5 {
+    background: url(../images/7.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec2-caro-bg6 {
+    background: url(../images/8.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec2-caro-bg7 {
+    background: url(../images/9.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sec2-caro-bg8 {
+    background: url(../images/10.png);
+    height: 500px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.carousel-indicators{
+
+    bottom: -100px;
+}
+.carousel-indicators [data-bs-target]{
+
+    width: 45px;
+    height: 8px;
+    background-color: var(--primary-color);
+}
+section.sec3-adopt-rescue {
+
+    background: url(../images/bg-1_02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.sec3-custom-p {
+    color: white;
+    font-family: var(--thin-font);
+}
+section.sec3-adopt-rescue li.list-group-item {
+    background: none;
+    border: none;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    transform: translate(0px, 338px);
+}
+section.sec3-adopt-rescue .carousel-indicators {
+    bottom: -30px;
+    left: 55%;
+    right: 0;
+}
+
+section.sec4-philosophy {
+
+    background: url(../images/back-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+section.sec4-philosophy h1 {
+
+    color: var(--secondary-color);
+}
+section.sec5-breed {
+
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    height: max-content;
+    background: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+  
+}
+
+section.sec5-breed::before {
+    content: url(../images/dog-banner.png);
+    position: absolute;
+    /* left: 0; */
+    right: 0;
+    transform: translate(0px, 396px);
+    float: right;
+}
+
+section.sec5-breed h1 {
+
+    color: var(--primary-color);
+}
+
+section.sec5-breed li.list-group-item {
+    background: none;
+    border: none;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    transform: translate(0px, 330px);
+}
+
+section.sec5-breed ul.list-group.list-group-horizontal-xxl.custom-list-group {
+    padding-top: 25px;
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+
+section.sec5-breed .custom-img {
+    position: relative;
+    left: 35px;
+    top: -35px;
+}
+
+section.sec6-testimonials{
+
+    background: url(../images/back-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+section.sec6-testimonials p {
+    color: white;
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 33px;
+    font-family: var(--thin-font);
+}
+
+
+section.sec6-testimonials .testi-bg{
+
+    background: var(--primary-color);
+    padding: 50px;
+    border-radius: 20px;
+}
+section.sec6-testimonials .testi-bg::before{
+
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 22px 22px 0 0;
+    border-color: #f6921f;
+}
+
+section.sec6-testimonials img.img-fluid.test-q-img {
+    align-items: start;
+    justify-content: start;
+    display: flex;
+    padding-bottom: 2rem;
+}
+
+section.sec6-testimonials span.bottom-arrow{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid #f6921f;
+    position: relative;
+    top: 100px;
+}
+section.sec7-contact-form {
+    background: url(../images/back-4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+
+}
+textarea.form-control {
+
+    border-radius: 0px;
+}
+button.btn.btn-primary.submit-btn {
+    width: 100%;
+    border-radius: 0px;
+    border: none;
+    background: var(--primary-color);
+    font-size: 26px;
+    font-family: var(--heading-font);
+    padding: 15px 0px;
+}
+
+footer{
+    background: var(--primary-color);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+footer p{
+  color: #fff;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li a {
+    color:  white;
+    text-decoration: none;
+}
