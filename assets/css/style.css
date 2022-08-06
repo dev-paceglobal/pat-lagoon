@@ -85,6 +85,14 @@ section.sec1-banner {
     background-size: cover;
 }
 
+section.sec1-banner2 {
+    background: url('../images/banner.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 .zoomout {
   
@@ -453,4 +461,48 @@ footer li {
 footer li a {
     color:  white;
     text-decoration: none;
+}
+section.sec7-packages {
+    background: url(../images/back-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: max-content;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+}
+
+section.sec7-packages h1 {
+
+    color: var(--primary-color);
+    font-size: 50px;
+    font-family: var(--heading-font);
+}
+section.sec7-packages h4 {
+
+    color: var(--primary-color);
+    font-size: 30px;
+    font-family: var(--heading-font);
+}
+
+
+.bg-primary{
+
+    background: var(--primary-color) !important;
+    border: none;
+}
+
+.btn-primary{
+
+    background: var(--primary-color) !important;
+    border: none;
+}
+
+.border-primary{
+
+    border: #662c92;
+}
+
+.card-header.py-3.text-white.bg-primary.border-primary h4.my-0.fw-normal {
+    color: #662c92;
 }
