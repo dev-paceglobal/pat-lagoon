@@ -92,7 +92,13 @@ section.sec1-banner2 {
     background-position: center;
     background-size: cover;
 }
-
+section.checkout h1 {
+    color: black;
+    padding-bottom: 3rem;
+}
+section.checkout li.list-group-item {
+    transform: none;
+}
 
 .zoomout {
   
